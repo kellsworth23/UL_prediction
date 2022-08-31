@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" type="text/css" href="../static/css/font-awesome.css">
 
-    <link rel="stylesheet" href="../static/css/templatemo-training-studio.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-training-studio.css') }}">
         <!-- D3 library -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
 
@@ -48,15 +48,15 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">Ride Share Price  <em>Prediction.</em></a>
+                        <a href="{{ url_for('home', _anchor='top') }}" class="logo">Ride Share Price  <em>Prediction.</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#prediction">Prediction</a></li>
-                            <li class="scroll-to-section"><a href="#our-classes">Graphs</a></li>
-                            <li class="scroll-to-section"><a href="#call-to-action">Methodologies</a></li>
-                            <li class="main-button"><a href="#trainers">About Us</a></li> 
+                            <li class="scroll-to-section"><a href="{{ url_for('home', _anchor='top') }}" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="{{ url_for('home', _anchor='predictionId') }}">Prediction</a></li>
+                            <li class="scroll-to-section"><a href="{{ url_for('home', _anchor='our-classes') }}">Graphs</a></li>
+                            <li class="scroll-to-section"><a href="{{ url_for('home', _anchor='call-to-action') }}">Methodologies</a></li>
+                            <li class="main-button"><a href="{{ url_for('home', _anchor='trainers') }}">About Us</a></li> 
                             <!-- <li class="main-button"><a href="#">Sign Up</a></li> -->
                         </ul>        
                         <a class='menu-trigger'>
@@ -82,7 +82,7 @@
                 <h6>Clean Ride, Cheaper Ride</h6>
                 <h2>Cheaper with  <em>Uber or Lyft</em></h2>
                 <div class="main-button scroll-to-section">
-                    <a href="#prediction">Predict</a>
+                    <a href="{{ url_for('home', _anchor='predictionId') }}">Predict</a>
                 </div>
             </div>
         <div>
@@ -100,7 +100,7 @@
 
 </div>
     <!-- ***** Prediction Item Start ***** -->
-<section class="section" id="prediction">
+<section class="section" id="predictionId">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 offset-lg-3">

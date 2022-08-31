@@ -25,6 +25,14 @@ app = Flask(__name__)
 CORS(app)
 # ---------------------------------------------------------
 # Web site
+@app.route("/")
+def root():
+    return render_template("index.html")
+
+@app.route("/home")
+def home():
+    return render_template("index.html")
+
 
 class switch(object):
     value = None
