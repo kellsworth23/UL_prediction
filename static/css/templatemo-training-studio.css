@@ -105,7 +105,7 @@ ul {
 p {
   font-size: 24px;
   line-height: 25px;
-  color: #b5c2c7;
+  color: #aaabb8
 }
 
 /* 
@@ -120,12 +120,12 @@ body {
 }
 
 ::selection {
-  background: 	#b5c2c7;
+  background: 	#aaabb8;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #b5c2c7;
+  background: #aaabb8;
   color: #fff;
 }
 
@@ -165,7 +165,7 @@ body {
   text-align: center;
   font-size: 45px;
   font-weight: 800;
-  color: #b5c2c7;
+  color: #2e9cca;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 20px;
@@ -174,9 +174,8 @@ body {
 
 .section-heading h2 {
   font-size: 45px;
-  text-align: center;
   font-weight: 800;
-  color: #b5c2c7;
+  color: #5e2534;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 0px;
@@ -185,13 +184,11 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  text-align: center;
-  color: #b5c2c7;
+  color: #29648a;
 }
 
 .section-heading img {
   margin: 20px auto;
-  text-align: center;
 }
 
 .dark-bg h2 {
@@ -205,9 +202,8 @@ body {
 .main-button a {
   display: inline-block;
   font-size: 15px;
-  text-align: center;
   padding: 12px 20px;
-  background-color: #f7882f;
+  background-color: #29648a;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -216,7 +212,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: 		#b5c2c7;
+  background-color: 		#29648a;
 }
 
 
@@ -280,7 +276,6 @@ header
   line-height: 80px;
   color: #fff;
   font-size: 32px;
-  text-align: center;
   font-weight: 800;
   text-transform: uppercase;
   float: left;
@@ -292,7 +287,7 @@ header
 
 .header-area .main-nav .logo em {
   font-style: normal;
-  color: #0f2862;
+  color: #5e2534;
   font-weight: 900;
 }
 
@@ -338,8 +333,8 @@ header
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
-  background-color: 	#f7882f;
-  color: #0f2862;
+  background-color: 	#7a7a7a;
+  color: #6b7a8f;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0px;
@@ -350,7 +345,7 @@ header
 }
 
 .header-area .main-nav .nav li:last-child a:hover {
-  background-color: 	#0f2862;
+  background-color: 	#6b7a8f;
   opacity: 1;
 }
 
@@ -386,7 +381,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #b5c2c7;
+  background-color: #aaabb8;
   display: block;
   position: absolute;
   width: 30px;
@@ -397,7 +392,7 @@ header
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #273c4b;
+  background-color: #29648a;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -406,7 +401,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: 	#232c3a;
+  background-color: 	#6b7a8f;
   display: block;
   position: absolute;
   width: 30px;
@@ -417,7 +412,7 @@ header
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #0f2862;
+  background-color: #aaabb8;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -664,7 +659,7 @@ banner
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 800;
-  color: #fc5226;
+  color: #2e9cca;
   letter-spacing: 0.5px;
 }
 
@@ -713,7 +708,7 @@ features
   margin-top: 0px;
   margin-bottom:  7px;
   letter-spacing: 0.25px;
-  color: #f7882f;
+  color: #2e9cca;
   font-size: 19px;
   font-weight: 600;
   text-transform: capitalize;
@@ -749,7 +744,7 @@ subscribe
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 800;
-  color: #fc5226;
+  color: #5e2534;
   letter-spacing: 1px;
 }
 
@@ -808,7 +803,7 @@ Our Classes/graphs
   width: 100%;
   border-radius: 5px;
   display: inline-block;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(34, 50, 88, 0.1);
   color: #fff;
   font-size: 19px;
   letter-spacing: 0.5px;
@@ -816,7 +811,7 @@ Our Classes/graphs
   background-color: 	#b5c2c7;
 }
 #tabs .main-rounded-button a:hover {
-  background-color: 	#273c4b;
+  background-color: 	#aaabb8;
 }
 #tabs ul li a img {
   max-width: 100%;
@@ -1100,7 +1095,7 @@ contact
 }
 
 .contact-form button:hover {
-  background-color: 	#f7882f;
+  background-color: 	#5e2534;
 }
 
 
