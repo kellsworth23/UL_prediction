@@ -212,7 +212,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: 		#29648a;
+  background-color: 		#5e2534;
 }
 
 
@@ -260,7 +260,7 @@ header
   right: 0px;
   z-index: 100;
   height: 80px;
-  background: rgba(250,250,250,0.1);
+  background: rgba(250, 250, 250, 0.558);
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -333,7 +333,7 @@ header
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
-  background-color: 	#7a7a7a;
+  background-color: 	#2e9cca;
   color: #6b7a8f;
   text-align: center;
   font-weight: 400;
@@ -345,7 +345,7 @@ header
 }
 
 .header-area .main-nav .nav li:last-child a:hover {
-  background-color: 	#6b7a8f;
+  background-color: 	#eee;
   opacity: 1;
 }
 
@@ -357,7 +357,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #273c4b!important;
+  color: #eee!important;
   opacity: 1;
 }
 
@@ -638,7 +638,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(189, 192, 195, 0.264);
+    background-color: rgba(189, 192, 195, 0.538);
     top: 0;
     left: 0;
     bottom: 7px;
@@ -719,7 +719,7 @@ features
   display: inline-block;
   font-size: 13px;
   text-transform: uppercase;
-  color: 	#273c4b;
+  color: 	#eee;
   font-weight: 500;
 }
 
@@ -792,7 +792,7 @@ Our Classes/graphs
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 5px;
   font-size: 19px;
-  color: #273c4b;
+  color: #eee;
   letter-spacing: 0.5px;
   font-weight: 600;
   transition: all 0.3s;
@@ -803,7 +803,7 @@ Our Classes/graphs
   width: 100%;
   border-radius: 5px;
   display: inline-block;
-  box-shadow: 0px 0px 15px rgba(34, 50, 88, 0.1);
+  box-shadow: 0px 0px 15px rgba(136, 137, 139, 0.1);
   color: #fff;
   font-size: 19px;
   letter-spacing: 0.5px;
@@ -811,7 +811,7 @@ Our Classes/graphs
   background-color: 	#b5c2c7;
 }
 #tabs .main-rounded-button a:hover {
-  background-color: 	#aaabb8;
+  background-color: 	#eee;
 }
 #tabs ul li a img {
   max-width: 100%;
@@ -1083,7 +1083,7 @@ contact
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
-  background-color: 	#2e1825;
+  background-color: 	#eee;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -1095,7 +1095,7 @@ contact
 }
 
 .contact-form button:hover {
-  background-color: 	#5e2534;
+  background-color: 	#dcc7aa;
 }
 
 
